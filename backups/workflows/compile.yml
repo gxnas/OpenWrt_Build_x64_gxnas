@@ -186,7 +186,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         #name: ${{ env.SOURCE }}-${{ env.LUCI_EDITION }}-${{ env.TARGET_PROFILE }}-firmware-${{ env.Firmware_Date }}
-        name: OpenWrt_x64_all-${{ env.Firmware_Date }}
+        name: OpenWrt_x64_gxnas-${{ env.Firmware_Date }}
         path: ${{ env.FIRMWARE_PATH }}
     
     - name: 发布固件
@@ -194,7 +194,7 @@ jobs:
       uses: ncipollo/release-action@main
       with:
         #name: ${{ env.SOURCE }}-${{ env.PROMPT_TING }}
-        name: OpenWrt_x64_all-${{ env.Firmware_Date }}
+        name: OpenWrt_x64_gxnas-${{ env.Firmware_Date }}
         tag: a${{ env.date }}
         token: ${{ secrets.REPO_TOKEN }}
         allowUpdates: true
