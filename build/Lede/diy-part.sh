@@ -17,7 +17,7 @@ sed -i '9a\msgstr "固件出处"' feeds/luci/modules/luci-base/po/zh-cn/base.po
 sed -i '10a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
 
 # 后台IP设置
-export Ipv4_ipaddr="192.168.1.1"             # 修改openwrt后台地址(填0为关闭)
+export Ipv4_ipaddr="192.168.1.11"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"          # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
 export Op_name="OpenWrt-GXNAS"               # 修改主机名称为OpenWrt-123(填0为不作修改)
 
