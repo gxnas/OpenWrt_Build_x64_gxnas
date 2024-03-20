@@ -229,7 +229,7 @@ jobs:
         releases_keep_latest: ${{ env.KEEP_LATEST }}
         delete_tags: true
         delete_workflows: true
-        workflows_keep_day: 0
+        workflows_keep_day: 30
         gh_token: ${{ secrets.REPO_TOKEN }}
         
     - name: 触发启动"${{ matrix.target }}"开始编译
