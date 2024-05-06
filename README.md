@@ -1,4 +1,4 @@
-## `OpenWrt-x64_gxnas 【旁路由版】内核版本6.1X 云编译`
+## `OpenWrt-x64_gxnas 【旁路由版】内核版本6.6X 云编译`
 编译状态：
 
 <a href="https://github.com/gxnas/OpenWrt_Build_x64_gxnas/actions/workflows/OpenWrt_Build_x64_gxnas.yml">
