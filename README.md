@@ -6,6 +6,12 @@
 </a>
 
 </br>
+
+<a href="https://github.com/gxnas/OpenWrt_Build_x64_gxnas/actions/workflows/Official_Build_x64_gxnas.yml">
+    <img src="https://github.com/gxnas/OpenWrt_Build_x64_gxnas/actions/workflows/Official_Build_x64_gxnas.yml/badge.svg?style=flat" />
+</a>
+
+</br>
 <a href="https://github.com/gxnas/OpenWrt_Build_x64_gxnas/actions/workflows/compile.yml">
     <img src="https://github.com/gxnas/OpenWrt_Build_x64_gxnas/actions/workflows/compile.yml/badge.svg?style=flat" />
 </a>
